@@ -1,0 +1,180 @@
+import React from "react";
+import { StyleSheet } from "react-native";
+
+
+const Styles = StyleSheet.create({ 
+    //Video player screen
+    VideoPlayerScreenDescriptionView:{
+        width: '100%',
+        height: '70%',
+        paddingRight: 10,
+    },
+    VideoPlayerScreenVideoBox:{
+        width: '100%',
+        aspectRatio: 16/9,
+        // position: 'absolute'
+    },
+    VideoPlayerScreenVideoInfoView:{
+        width: '100%',
+        aspectRatio: 12/3,
+        backgroundColor: '#000000',
+        flexDirection: 'column',
+        // paddingVertical: 10
+    },
+    idNameAndSubcribeButtonView:{
+        width: '100%',
+        aspectRatio: 7/1,
+        backgroundColor: '#000000',
+        // borderTopWidth: 2,
+        // borderTopColor:'#fff',
+        flexDirection: 'row',
+        paddingHorizontal: 10,
+        alignItems: 'center',
+    },
+    VideoPlayerScreenAvatar:{
+        width: 35,
+        height: 35,
+        borderRadius: 35/2,
+
+    },
+    CreatorIdName:{
+        fontSize: 15,
+        fontWeight: '700',
+        color: '#fff',
+        marginLeft: 10,
+    },
+    SubscribeButton:{
+        width: 80,
+        height: 35,
+        borderRadius:35/2,
+        backgroundColor: '#fff',
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginLeft: 80
+    },
+    LikeDownloadMenuView:{
+        // width: '100%',
+        aspectRatio: 7/1,
+        backgroundColor: '#000000',
+        // borderTopWidth: 2,
+        // borderTopColor:'#fff',
+        flexDirection: 'row',
+        paddingHorizontal: 5,
+        alignItems: 'center',
+        justifyContent: 'space-between',
+    },
+    LikeAndDislikeMainView:{
+        width: 120,
+        height: 35,
+        borderRadius:35/2,
+        backgroundColor: '#1a1a1a',
+        alignItems: 'center',
+        // justifyContent: 'space-between',
+        // position: "absolute",
+        // right: 10,
+        alignSelf: 'center',
+        // paddingHorizontal: 15,
+        flexDirection: 'row',
+    },
+    LikeButtonView:{
+        width: '60%',
+        height: '100%',
+        borderRadius: 35/2,
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        paddingHorizontal: 15,
+    },
+    DislikeButtonView:{
+        width: '35%',
+        height: '100%',
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center',
+        // paddingHorizontal: 8,
+        borderRadius: 35/2,
+        
+    },
+    ShareButtonMainView:{
+        width: 90,
+        height: 35,
+        borderRadius:35/2,
+        backgroundColor: '#1a1a1a',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        // position: "absolute",
+        // right: 10,
+        alignSelf: 'center',
+        paddingHorizontal: 10,
+        flexDirection: 'row',
+        marginLeft: 10,
+        // elevation:4,
+        overflow: 'hidden'
+    },
+    DownloadButtonMainView:{
+        width: 120,
+        height: 35,
+        borderRadius:35/2,
+        backgroundColor: '#1a1a1a',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        // position: "absolute",
+        // right: 10,
+        alignSelf: 'center',
+        paddingHorizontal: 14,
+        flexDirection: 'row',
+        marginLeft: 10,
+    },
+    ClipButtonMainView:{
+        width: 80,
+        height: 35,
+        borderRadius:35/2,
+        backgroundColor: '#1a1a1a',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        // position: "absolute",
+        // right: 10,
+        alignSelf: 'center',
+        paddingHorizontal: 12,
+        flexDirection: 'row',
+        marginLeft: 10,
+    },
+    SaveButtonMainView:{
+        width: 85,
+        height: 35,
+        borderRadius:35/2,
+        backgroundColor: '#1a1a1a',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        // position: "absolute",
+        // right: 10,
+        alignSelf: 'center',
+        paddingHorizontal: 12,
+        flexDirection: 'row',
+        marginLeft: 10,
+    },
+    UnsubscribeMainView:{
+        width: 900,
+        height: 300,
+        flexDirection: 'column',
+        position: 'absolute',
+        bottom: 0,
+        left:0,
+        backgroundColor: 'gray',
+        // marginTop: 600
+    },
+    BellIconButton:{
+        width: 70,
+        height: 35,
+        borderRadius:35/2,
+        backgroundColor: '#1a1a1a',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        paddingHorizontal: 9,
+        flexDirection: 'row',
+        marginLeft: 80
+    },
+    
+});
+
+export default Styles;
