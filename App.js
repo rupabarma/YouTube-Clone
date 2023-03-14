@@ -23,7 +23,6 @@ import { NavigationContainer } from '@react-navigation/native';
 import {StackNavigator} from './Navigation/StackNavigator';
 import Navigation from './Navigation/Navigation';
 import 'react-native-gesture-handler';
-import { withAuthenticator } from 'aws-amplify-react-native';
 
 const App = () => {
   return (
@@ -36,4 +35,4 @@ const App = () => {
   );
 };
 
-export default withAuthenticator(App);
+export default App;
